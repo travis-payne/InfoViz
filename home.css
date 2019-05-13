@@ -1,5 +1,19 @@
-#container{
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+
+#Initial-bar{
     width:75%;
     margin: auto;
 
+}
+
+#pie-comparison{
+    width:70%;
+    margin: auto;
+
+}
+
+.btn-primary-spacing 
+{
+margin: 2%;
 }
