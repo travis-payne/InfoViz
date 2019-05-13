@@ -101,7 +101,10 @@ function side_by_side(){Highcharts.chart('pie-comparison', {
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
+        borderColor: '#EBBA95',
+        borderWidth: 2,
     },
+    
     title: {
         text: 'Number of Suicides by Gender and Age'
     },
@@ -182,7 +185,9 @@ function drilldown(){Highcharts.chart('pie-comparison', {
 
     chart: {
         type: 'pie',
-        styleMode:true
+        styleMode:true,
+        borderColor: '#EBBA95',
+        borderWidth: 1,
         
     },
     title: {
