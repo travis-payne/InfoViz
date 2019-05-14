@@ -12,14 +12,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-
   <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript" src="https://code.highcharts.com/highcharts-more.js"></script>
-  <script src="https://code.highcharts.com/modules/series-label.js"></script>
   <script src="http://code.highcharts.com/modules/accessibility.js"></script>
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
   <script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
-  <script src="https://code.highcharts.com/modules/drilldown.js"></script>
   <link rel="stylesheet" type="text/css" href="home.css">
 
   
@@ -38,7 +35,7 @@
               <a class="nav-link" href="home.html">Numbers by Age + Gender</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="page2.html">Per 100k - Per Country</a>
+              <a class="nav-link" href="page2.html">By Geographic Region</a>
             </li>
           </ul>
               </nav>
@@ -57,6 +54,7 @@
 <div class="btn-group-vertical">
     <button class="btn btn-outline-primary" onclick="countries_by_bubble()" >Country by Country</button>
     <button class="btn btn-outline-primary" onclick="split_by_continent()">Split by Continent</button>
+    <button class="btn btn-outline-primary" onclick="map_view()">Map View</button>
   </div>
 </div>
 <div id="container"></div>

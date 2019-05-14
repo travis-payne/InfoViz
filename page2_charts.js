@@ -1,10 +1,8 @@
 $(function(){
-
     countries_by_bubble();
- 
- 
  });
- 
+
+
  function countries_by_bubble(){
     Highcharts.chart('container', {
         chart: {
@@ -27,7 +25,7 @@ $(function(){
                 zMax: 1000,
                 packedbubble: {
                     layoutAlgorithm: {
-                        gravitationalConstant: 1,
+                        gravitationalConstant: 2.5,
                         splitSeries: true,
                     }
                 },
@@ -37,7 +35,7 @@ $(function(){
                     filter: {
                         property: 'y',
                         operator: '>',
-                        value: 20
+                        value: 15
                     },
                     style: {
                         color: 'black',
@@ -484,7 +482,7 @@ $(function(){
             zMax: 1000,
             layoutAlgorithm: {
                 splitSeries: true,
-                gravitationalConstant: 1,
+                gravitationalConstant: 2.5,
                 dragBetweenSeries: true,
             },
             dataLabels: {
