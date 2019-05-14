@@ -1,6 +1,7 @@
 $(function(){
 
    male_female_rates();
+   drilldown();
 
 
 
