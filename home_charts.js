@@ -1,7 +1,7 @@
 $(function(){
 
    male_female_rates();
-   drilldown();
+
 
 
 });
@@ -16,7 +16,6 @@ function male_female_rates(){Highcharts.chart('Initial-bar', {
     subtitle: {
         text: 'Source: www.worldometers.info'
     },
-
     yAxis: [{
         title: {
             text: 'Suicide Rates per 100k Population',
@@ -129,7 +128,7 @@ function side_by_side(){Highcharts.chart('pie-comparison', {
         items: [{
             html: '<p style="font-size:18px;font-weight:bold;">Male</p>',
             style: {
-                left: '125px',
+                left: '300px',
                 top: '18px',
                 color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
             }
