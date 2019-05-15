@@ -7,7 +7,7 @@ $(function(){
     Highcharts.chart('container', {
         chart: {
             type: 'packedbubble',
-            height: '65%'
+            height: '40%'
         },
         title: {
             text: 'Suicides per 100k Population by Country'
@@ -19,14 +19,15 @@ $(function(){
         },
         plotOptions: {
             packedbubble: {
-                minSize: '10%',
-                maxSize: '300%',
+                minSize: '10',
+                maxSize: '600',
                 zMin: 0,
                 zMax: 1000,
                 packedbubble: {
                     layoutAlgorithm: {
-                        gravitationalConstant: 2.5,
+                        gravitationalConstant:0.05,
                         splitSeries: true,
+                        useSimulation: true
                     }
                 },
                 dataLabels: {
@@ -464,7 +465,7 @@ $(function(){
  function split_by_continent(){Highcharts.chart('container', {
     chart: {
         type: 'packedbubble',
-        height: '65%'
+        height: '40%'
     },
     title: {
         text: 'Suicides per 100k Population by Country'
@@ -476,13 +477,13 @@ $(function(){
     },
     plotOptions: {
         packedbubble: {
-            minSize: '25%',
-            maxSize: '300%',
+            minSize: '10',
+            maxSize: '400',
             zMin: 0,
             zMax: 1000,
             layoutAlgorithm: {
                 splitSeries: true,
-                gravitationalConstant: 2.5,
+                gravitationalConstant: 0.05,
                 dragBetweenSeries: true,
             },
             dataLabels: {
@@ -923,7 +924,8 @@ $(function(){
     Highcharts.mapChart('container', {
 
         chart: {
-            map: 'custom/world'
+            map: 'custom/world',
+            height: "50%"
         },
 
         title: {
