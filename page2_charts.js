@@ -1566,7 +1566,7 @@ $(function(){
             "value": 3.725,
             "code": "DZ"
         },
-        {
+        { // ------------------------ START DATA INPUT HERE ---------------------------------
             "code3": "AGO",
             "name": "Angola",
             "value": 23.11,
