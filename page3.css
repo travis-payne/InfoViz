@@ -1,0 +1,13 @@
+#highest {
+    height: 100%; 
+    width: 40%; 
+    margin-left :5%;
+    float:left;
+}
+#lowest {
+    height: 100%; 
+    width: 40%; 
+    margin-right:5%;
+    float:right;
+    
+}

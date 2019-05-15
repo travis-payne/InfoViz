@@ -20,8 +20,8 @@ $(function(){
         },
         plotOptions: {
             packedbubble: {
-                minSize: '5',
-                maxSize: '300',
+                minSize: '1',
+                maxSize: '450',
                 zMin: 0,
                 zMax: 1000,
                 packedbubble: {
@@ -37,7 +37,7 @@ $(function(){
                     filter: {
                         property: 'y',
                         operator: '>',
-                        value: 15
+                        value: 20
                     },
                     style: {
                         color: 'black',
