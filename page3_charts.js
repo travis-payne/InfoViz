@@ -66,7 +66,7 @@ Highcharts.chart('highest', {
         height: "150%"
     },
     title: {
-        text: 'Lowest Suicide Rates per 100k population'
+        text: 'Highest Suicide Rates per 100k population'
     },
     subtitle: {
         text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
