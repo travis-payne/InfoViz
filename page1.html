@@ -20,7 +20,7 @@
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
 <script src="https://code.highcharts.com/modules/drilldown.js"></script>
-<link rel="stylesheet" type="text/css" href="page3.css">
+<link rel="stylesheet" type="text/css" href="page1.css">
 
   
   
@@ -33,8 +33,9 @@
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Travis Payne - Info Viz</a>
-            </li> 
-            <li class="nav-item">
+            </li>
+          </li>
+          <li class="nav-item">
               <a class="nav-link" href="home.html">Home</a>
             </li>
             <li class="nav-item">
@@ -53,28 +54,24 @@
               
 
           </br>
+<div class="text-center">
 
-          <div id="lowest"></div>
+  <div class="btn-group-vertical">
+    <button class="btn btn-outline-primary" onclick="drilldown()">Combined Drilldown</button>
+    <button class="btn btn-outline-primary" onclick="side_by_side()" >Side by Side Comparison</button>
+  </div>
 
-
-          <div id="middle"></div>
-
-         
-<div id="highest"></div>
-
-
-
-
-<div id="options">
-
-<div class="btn-group-vertical">
-  <button class="btn btn-outline-primary" onclick="lowest_line()">Display Lowest Rates</button>
-  <button class="btn btn-outline-primary" onclick="highest_line()" >Display Highest Rates</button>
 </div>
+</br>
+<div id="pie-comparison">
+
+  
 </div>
+
+
 
 
 </body>
-<script type ="text/javascript" src="page3_charts.js"></script>
+<script type ="text/javascript" src="page1_charts.js"></script>
 
 </html>

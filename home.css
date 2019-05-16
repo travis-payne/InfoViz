@@ -1,21 +1,9 @@
 
+#splash {
+    height: 100%; 
+    width: 50%; 
+    margin:0 auto;
+    margin-top: 10%; 
+    text-align: center;
 
-#Initial-bar{
-    width:75%;
-    margin: auto;
-
-}
-
-#pie-comparison{
-    width:80%;
-    margin: auto;
-    padding-right:5%;
-    padding-left:5%;
-
-
-}
-
-.btn-primary-spacing 
-{
-margin: 2%;
 }

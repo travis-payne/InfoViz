@@ -13,13 +13,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
-  <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
-  <script type="text/javascript" src="https://code.highcharts.com/highcharts-more.js"></script>
-  <script src="https://code.highcharts.com/modules/series-label.js"></script>
-  <script src="http://code.highcharts.com/modules/accessibility.js"></script>
-  <script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
-<script src="https://code.highcharts.com/modules/drilldown.js"></script>
 <link rel="stylesheet" type="text/css" href="home.css">
 
   
@@ -35,7 +28,10 @@
               <a class="nav-link" href="#">Travis Payne - Info Viz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="home.html">Numbers by Age + Gender</a>
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page1.html">Numbers by Age + Gender</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="page2.html">By Geographic Region</a>
@@ -49,32 +45,32 @@
 
               
 
-          </br>
-<div class="text-center">
-
-  <div class="btn-group-vertical">
-    <button class="btn btn-outline-primary" onclick="drilldown()">Combined Drilldown</button>
-    <button class="btn btn-outline-primary" onclick="side_by_side()" >Side by Side Comparison</button>
-  </div>
-
-</div>
-</br>
-<div id="pie-comparison">
-
   
+<div id="splash">
+
+    <h1>Travis Payne - Information Visualisation</h1>
+    <h3>An investigation into factors correlated to increased suicide rates.</h3>
+
+
+    <h5>This compiled dataset pulled from four other datasets linked by time and place, and was built to find signals correlated to increased suicide rates among different 
+        cohorts globally, across the socio-economic spectrum.<br />
+        All data used was downloaded from https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016.</h5>
+
+    <p><b>References</b><br />
+        United Nations Development Program. (2018). Human development index (HDI). Retrieved from http://hdr.undp.org/en/indicators/137506<br />
+        
+        World Bank. (2018). World development indicators: GDP (current US$) by country:1985 to 2016. Retrieved from http://databank.worldbank.org/data/source/world-development-indicators#<br />
+        
+        [Szamil]. (2017). Suicide in the Twenty-First Century [dataset]. Retrieved from https://www.kaggle.com/szamil/suicide-in-the-twenty-first-century/notebook<br />
+        
+        World Health Organization. (2018). Suicide prevention. Retrieved from http://www.who.int/mental_health/suicide-prevention/en/</p>
+
 </div>
-
-</br>
-</br>
-<div id="Initial-bar"></div>
-
-
-</br>
 </br>
 
 
 
 </body>
-<script type ="text/javascript" src="home_charts.js"></script>
+
 
 </html>
