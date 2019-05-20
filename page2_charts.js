@@ -109,7 +109,7 @@ $(function(){
 
         chart: {
             map: 'custom/world',
-            height: "60%"
+            height: "50%"
         },
 
         title: {

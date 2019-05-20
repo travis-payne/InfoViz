@@ -102,7 +102,7 @@ function drilldown(){Highcharts.chart('pie-comparison', {
         styleMode:true,
         borderColor: '#EBBA95',
         borderWidth: 1,
-        height: "30%"
+        height: "25%"
         
     },
     title: {
